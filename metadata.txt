@@ -29,7 +29,7 @@ author=Rajmund Szostok. Migrated to QGIS 3 by Borys Jurgiel and Faunalia. Code t
 email=henrik.spangmyr@midvatten.se
 
 changelog=
-    2.2.5    New feature "Copy cell content", patch by TurboGraphxBeige.
+    2.2.5    New feature "Copy cell content", patch by Patrice Pineault.
     2.2.4    Added more tooltips. Patch by Sylvain POULAIN.
     2.2.3    Fixes bug where selectAll gave python error.
     2.2.2    Plugin ownership transferred to HenrikSpa
