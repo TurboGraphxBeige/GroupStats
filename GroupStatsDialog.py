@@ -1022,7 +1022,7 @@ class WindowResults(QTableView, QMenu):
         selectedCell = str(self.indexAt(event.pos()).data())                        # Get the content of the cell on right click
         copyCellContentAction.triggered.connect(lambda: GroupStatsDialog().copyCellContent(selectedCell))
         self.menu.addAction(copyCellContentAction)
-        self.selectionModel().select(selectionIndex, QItemSelectionModel.ClearAndSelect)        # Clear any selection in the table and select the single cell that has been clicked
+        self.selectionModel().select(selectionIndex, QItemSelectionModel.SelectionFlag.ClearAndSelect)        # Clear any selection in the table and select the single cell that has been clicked
         self.menu.popup(QCursor.pos())
 
     def selectionCommand(self, index, event=None):
